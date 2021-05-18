@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnStart = findViewById(R.id.Start_Btn) as Button
+        val btnStart = findViewById(R.id.action_Add_Task) as Button
         // set on-click listener
         btnStart.setOnClickListener{
             Toast.makeText(this@MainActivity, "You clicked me ye.", Toast.LENGTH_SHORT).show()
