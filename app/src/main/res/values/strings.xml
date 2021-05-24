@@ -4,5 +4,13 @@
     <string name="task_text2">At</string>
     <string name="task_text3">In place</string>
     <string name="btn_create">Create Task</string>
+    <string name="txt_location">Location</string>
+    <string name="txt_date">Date and Time</string>
+    <string name="txt_task">Task</string>
+    <string name="btn_repeat">Repeat every day</string>
+    <string name="btn_repeat_on">On</string>
+    <string name="btn_repeat_off">Off</string>
+
+
 
 </resources>
