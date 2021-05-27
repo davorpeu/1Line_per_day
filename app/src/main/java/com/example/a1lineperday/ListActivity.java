@@ -6,5 +6,6 @@ import java.util.Date;
 public class ListActivity {
     private ArrayList<String> task;
     private ArrayList<Date> time;
+    private ArrayList<String> location;
 
 }
