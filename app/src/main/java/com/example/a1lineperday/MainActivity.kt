@@ -32,8 +32,9 @@ class MainActivity : AppCompatActivity() {
 
     //Solve tommorow make this add a task
     fun onAddItem(v: View?) {
-        val etNewItem = findViewById<View>(R.id.etNewItem) as EditText
+        val etNewItem = findViewById<View>(R.id.) as EditText
         val itemText = etNewItem.text.toString()
+        val itemsAdapter
         itemsAdapter.add(itemText)
         etNewItem.setText("")
     }
