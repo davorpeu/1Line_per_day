@@ -1,10 +1,10 @@
 package com.example.a1lineperday
 
-import android.R
+
 import android.os.Bundle
-import android.view.View
+
 import android.widget.Button
-import android.widget.EditText
+
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
@@ -30,14 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //Solve tommorow make this add a task
-    fun onAddItem(v: View?) {
-        val etNewItem = findViewById<View>(R.id.) as EditText
-        val itemText = etNewItem.text.toString()
-        val itemsAdapter
-        itemsAdapter.add(itemText)
-        etNewItem.setText("")
-    }
+
 
 
 }
