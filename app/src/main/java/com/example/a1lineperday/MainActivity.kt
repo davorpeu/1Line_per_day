@@ -21,12 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnStart = findViewById(R.id.action_Add_Task) as Button
-        // set on-click listener
-        btnStart.setOnClickListener{
 
-            Toast.makeText(this@MainActivity, "Task Created.", Toast.LENGTH_SHORT).show()
-        }
 
     }
 
